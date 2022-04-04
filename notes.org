@@ -1,0 +1,16 @@
+#+TITLE: Haskell Notes
+
+* Day One(ish?)
+    Today I'm working through some excercism problems to grasp some basics
+
+    - worth noting that while haskell can do type inference, it seems that the best practice is to include type signatures for just about everything. example:
+      #+begin_src haskell
+        foo :: Integer
+        foo = 42
+      #+end_src
+
+    - worth noting that the type signature of a multi-argument is a bit unintuitive, at first(not objectively):
+      #+begin_src haskell
+        bar :: Integer -> Integer -> Integer
+        bar foo baz = foo + baz
+      #+end_src
