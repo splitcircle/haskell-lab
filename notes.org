@@ -14,3 +14,10 @@
         bar :: Integer -> Integer -> Integer
         bar foo baz = foo + baz
       #+end_src
+
+* Day two
+    Ended yesterday a bit early. Back to it today.
+    Learned about the `infix` operator today. it's basically a way to put a funciton inbetween it's arguments, rather than preceeding them:
+    #+begin_src haskell
+        9 `mod` 4
+    #+end_src
